@@ -17,9 +17,7 @@ const siteConfig = {
   cname: "boltpkg.com",
   headerLinks: [
     {doc: 'introduction', label: 'About'},
-    {doc: 'install', label: 'Commands'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    {doc: 'install', label: 'Commands'}
   ],
   users,
   /* path to images for header/footer */
