@@ -1,10 +1,37 @@
 {
   "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
+    "About": [
+      "introduction",
+      "workspaces",
+      "bolt"
+    ]
   },
   "commands": {
-    "Commands": ["install", "doc5"]
+    "Commands": [
+      "install",
+      "init",
+      "add",
+      "upgrade",
+      "version",
+      "publish",
+      "run",
+      "build",
+      "format",
+      "lint",
+      "doc",
+      "check",
+      "bin"
+    ],
+    "workspaces": [
+      "workspaces-run",
+      "workspaces-exec",
+      "workspaces-upgrade",
+      "workspaces-remove"
+    ],
+    "workspace": [
+      "workspace-run",
+      "workspace-exec",
+      "workspace-upgrade"
+    ]
   }
 }
