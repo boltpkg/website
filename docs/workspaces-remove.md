@@ -3,6 +3,8 @@ id: workspaces-remove
 title: bolt workspaces remove
 ---
 
+---
+
 Remove a dependency from every package that depends on it
 
 ## Filter workspaces

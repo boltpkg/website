@@ -3,6 +3,8 @@ id: introduction
 title: Introduction
 ---
 
+---
+
 Are you sharing components, libraries or services between different projects and
 find it difficult to manage? Juggling lots of Node packages in lots of different
 repositories? What if there was a better way?

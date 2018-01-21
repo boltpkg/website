@@ -3,6 +3,8 @@ id: workspaces-upgrade
 title: bolt workspaces upgrade
 ---
 
+---
+
 Upgrade a dependency from every package that depends on it
 
 ## Filter workspaces

@@ -3,9 +3,17 @@ id: install
 title: bolt install
 ---
 
-### Usage
+---
 
-**`bolt install`**
+## Intall dependencies
+
+Running `bolt` without a command will run `bolt install`.
+
+Bolt will validate your project. If everything looks file it will install dependencies 
+
+## Commands
+
+### **`bolt install`**
 
 Install all the external dependecies of the project and workspaces in the node_modules of the project and symlinks them to the node_modules of the workspaces.
 
