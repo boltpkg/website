@@ -3,37 +3,39 @@ id: add
 title: bolt add
 ---
 
-### Usage
+---
 
-**`bolt add <dependency...> [Flag]`**
+## Add dependencies
 
-### Description
+Uses [yarn add](https://yarnpkg.com/en/docs/cli/add) to add dependencies. Then runs a custom logic to create a dependency graph. This command will re-establish symlinks between dependency of project and workspaces. This will generate a new ***lock*** file and update the ***package.json*** of the project.
 
-This will add dependency and any of its dependencies to the project. This will generate a new ***lock*** file and update the ***package.json*** of the project.
+## Commands
 
-### Flags
+### **`bolt add <package...>`**
 
-**`--dev/-D`**
+This will add package(s) and any of its dependencies to [dependency](https://yarnpkg.com/en/docs/dependency-types#toc-dependencies) of the project.
 
-`bolt add <dependency...> [--dev/-D]` will add dependency... to devDependency of the project.
+### **`bolt add <package...> <--dev/-D>`**
 
-**`--peer/-P`**
+This will add package(s) and any of its dependencies to [devdependency](https://yarnpkg.com/en/docs/dependency-types#toc-devdependencies) of the project.
 
-`bolt add <dependency...> [--peer/-P]` will add dependency... to peerDependencies of the project.
+### **`bolt add <package...> <--peer/-P>`**
 
-**`--optional/-O`**
+This will add package(s) and any of its dependencies to [peerDependencies](https://yarnpkg.com/en/docs/dependency-types#toc-peerdependencies) of the project.
 
-`bolt add <dependency...> [--optional/-O]` will add dependency... to optionalDependencies of the project.
+### **`bolt add <package...> <--optional/-O>`**
 
-**`--exact/-E`**
+This will add package(s) and any of its dependencies to [optionalDependencies](https://yarnpkg.com/en/docs/dependency-types#toc-optionaldependencies) of the project.
 
-`bolt add <dependency...> [--exact/-E]` will add the exact version of the dependency. For example, `bolt add foo@1.2.3` would accept version 1.9.1, but `bolt add foo@1.2.3 --exact` would only accept version 1.2.3.
+### **`bolt add <package...> <--exact/-E>`**
 
-**`--tilde/-T`**
+This will add the exact version of the dependency. For example, `bolt add foo@1.2.3` would accept version 1.9.1, but `bolt add foo@1.2.3 --exact` would only accept version 1.2.3.
 
-`bolt add <dependency...> [--tilde/-T]` will add the most recent release of the packages that have the same minor version. The default is to use the most recent release with the same major version. For example, `bolt add foo@1.2.3 --tilde` would accept 1.2.9 but not 1.3.0.
+### **`bolt add <package...> <--tilde/-T>`**
 
-### Related commands
+This will add the most recent release of the packages that have the same minor version. The default is to use the most recent release with the same major version. For example, `bolt add foo@1.2.3 --tilde` would accept 1.2.9 but not 1.3.0.
+
+## Related commands
 
 [`bolt workspace add`](/docs/workspace-add.html)
 

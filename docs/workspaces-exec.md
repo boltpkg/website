@@ -3,6 +3,8 @@ id: workspaces-exec
 title: bolt workspaces exec
 ---
 
+---
+
 Run a shell cmd in every package
 
 ## Filter workspaces
