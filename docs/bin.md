@@ -5,6 +5,8 @@ title: bolt bin
 
 ---
 
+This will display the path to `bin` folder of package this command is run in
+
 ## Command
 
 ### **`bolt bin`**
