@@ -1,0 +1,13 @@
+{
+  "name": "boltpkg.com",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "cd website && yarn start",
+    "build": "cd website && yarn build"
+  },
+  "devDependencies": {
+    "docusaurus": "^1.0.5"
+  }
+}
+  
