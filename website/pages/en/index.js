@@ -81,19 +81,21 @@ const Block = props => (
   <Container
     padding={['bottom', 'top']}
     id={props.id}
-    background={props.background}>
+    background={props.background}
+    className={props.className}>
     <GridBlock contents={props.children} layout={props.layout} imageAlign={props.imageAlign} />
   </Container>
 );
 
 const Features = props => (
   <Block
-    id="home-page-features"
+    background="dark"
+    className="bolt-gradient"
   >
     {[
       {
         content: 'This is the content of my feature',
-        image: imgUrl('docusaurus.svg'),
+        image: imgUrl('logo.svg'),
         imageAlign: 'right',
         title: 'Feature One',
       }
@@ -111,11 +113,14 @@ const FeatureCallout = props => (
 );
 
 const LearnHow = props => (
-  <Block background="light">
+  <Block
+    background="dark"
+    className="dark-background"
+  >
     {[
       {
         content: 'Talk about learning how to use this',
-        image: imgUrl('docusaurus.svg'),
+        image: imgUrl('logo.svg'),
         imageAlign: 'right',
         title: 'Learn How',
       },
@@ -124,11 +129,13 @@ const LearnHow = props => (
 );
 
 const TryOut = props => (
-  <Block id="try">
+  <Block 
+    id="try"
+    className="bolt-gradient">
     {[
       {
         content: 'Talk about trying this out',
-        image: imgUrl('docusaurus.svg'),
+        image: imgUrl('logo.svg'),
         imageAlign: 'left',
         title: 'Try it Out',
       },
@@ -137,11 +144,14 @@ const TryOut = props => (
 );
 
 const Description = props => (
-  <Block background="dark">
+  <Block 
+    background="dark"
+    className="dark-background"
+  >
     {[
       {
         content: 'This is another description of how this project is useful',
-        image: imgUrl('docusaurus.svg'),
+        image: imgUrl('logo.svg'),
         imageAlign: 'right',
         title: 'Description',
       },

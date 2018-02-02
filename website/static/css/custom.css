@@ -5,7 +5,10 @@ body{
 }
 a{
     color: #298eb9;
-    
+}
+
+.wrapper {
+    max-width: 960px;
 }
 
 .homeContainer{
@@ -22,7 +25,7 @@ a{
     padding-bottom: 8rem;
 }
 
-#home-page-features{
+.bolt-gradient{
     color: white;
     background: #383838;
     background: -webkit-linear-gradient(-45deg, #498DB5 0%, #8B599C 50%, #DC536E 100%);
@@ -30,18 +33,8 @@ a{
     background: linear-gradient(-45deg, #498DB5 0%, #8B599C 50%, #DC536E 100%);
 }
 
-#home-page-features h2{
-    margin-top: 0;
-    font-size: 5.2rem;
-    line-height: 1;
-    white-space: nowrap;
-    color: white;
-}
-
-#home-page-features .blockImage img{
-    height: 500px;
-    width: 500px;
-    background: white;
+.dark-background {
+    background: #383838;
 }
 
 #footer{
