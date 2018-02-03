@@ -11,11 +11,12 @@ const siteConfig = {
   cname: "boltpkg.com",
   headerLinks: [
     {doc: 'introduction', label: 'About'},
-    {doc: 'add', label: 'Commands'}
+    {doc: 'add', label: 'Commands'},
+    {blog: true, label: 'Blog'},
   ],
   disableHeaderTitle: true,
   users,
-  editUrl: 'https://github.com/ajaymathur/website/tree/master/docs/',
+  editUrl: 'https://github.com/boltpkg/website/tree/master/docs/',
   /* path to images for header/footer */
   headerIcon: 'img/logo.svg',
   footerIcon: 'img/logo.svg',
