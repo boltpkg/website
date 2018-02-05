@@ -8,19 +8,19 @@
   },
   "commands": {
     "Commands": [
-      "add",
-      "bin",
-      "build",
-      "check",
-      "doc",
-      "format",
-      "init",
       "install",
-      "lint",
+      "init",
+      "add",
+      "upgrade",
+      "version",
       "publish",
       "run",
-      "upgrade",
-      "version"
+      "build",
+      "format",
+      "lint",
+      "doc",
+      "check",
+      "bin"
     ],
     "workspaces": [
       "workspaces-add",
