@@ -3,11 +3,9 @@ id: bin
 title: bolt bin
 ---
 
----
+### Usage
 
-## Command
-
-### **`bolt bin`**
+**`bolt bin`**
 
 This will print the path to the folder where bolt will install the executables for the project.
 

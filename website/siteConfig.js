@@ -17,18 +17,17 @@ const siteConfig = {
   cname: "boltpkg.com",
   headerLinks: [
     {doc: 'introduction', label: 'About'},
-    {doc: 'add', label: 'Commands'}
+    {doc: 'install', label: 'Commands'}
   ],
-  disableHeaderTitle: true,
   users,
-  editUrl: 'https://github.com/ajaymathur/website/tree/master/docs/',
   /* path to images for header/footer */
-  headerIcon: 'img/logo.svg',
-  footerIcon: 'img/logo.svg',
+  headerIcon: 'img/docusaurus.svg',
+  footerIcon: 'img/docusaurus.svg',
+  favicon: 'img/favicon.png',
   /* colors for website */
   colors: {
-    primaryColor: "#333333",
-    secondaryColor: "#272727",
+    primaryColor: '#2E8555',
+    secondaryColor: '#205C3B',
   },
   // This copyright info is used in /core/Footer.js and blog rss/atom feeds.
   copyright:

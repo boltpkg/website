@@ -51,6 +51,7 @@ const Logo = props => (
 
 const ProjectTitle = props => (
   <h2 className="projectTitle">
+    {siteConfig.title}
     <small>{siteConfig.tagline}</small>
   </h2>
 );
@@ -68,9 +69,14 @@ class HomeSplash extends React.Component {
     let language = this.props.language || '';
     return (
       <SplashContainer>
+        <Logo img_src={imgUrl('docusaurus.svg')} />
         <div className="inner">
-          <img width="400" alt="Bolt logo" src={imgUrl('logo.svg')} />
           <ProjectTitle />
+          <PromoSection>
+            <Button href="#try">Try It Out</Button>
+            <Button href={docUrl('doc1.html', language)}>Example Link</Button>
+            <Button href={docUrl('doc2.html', language)}>Example Link 2</Button>
+          </PromoSection>
         </div>
       </SplashContainer>
     );
@@ -82,21 +88,25 @@ const Block = props => (
     padding={['bottom', 'top']}
     id={props.id}
     background={props.background}>
-    <GridBlock contents={props.children} layout={props.layout} imageAlign={props.imageAlign} />
+    <GridBlock align="center" contents={props.children} layout={props.layout} />
   </Container>
 );
 
 const Features = props => (
-  <Block
-    id="home-page-features"
-  >
+  <Block layout="fourColumn">
     {[
       {
         content: 'This is the content of my feature',
         image: imgUrl('docusaurus.svg'),
-        imageAlign: 'right',
+        imageAlign: 'top',
         title: 'Feature One',
-      }
+      },
+      {
+        content: 'The content of my second feature',
+        image: imgUrl('docusaurus.svg'),
+        imageAlign: 'top',
+        title: 'Feature Two',
+      },
     ]}
   </Block>
 );
@@ -186,13 +196,13 @@ class Index extends React.Component {
     return (
       <div>
         <HomeSplash language={language} />
-          <div className="mainContainer">
-            <Features />
-            <FeatureCallout />
-            <LearnHow />
-            <TryOut />
-            <Description />
-            <Showcase language={language} />
+        <div className="mainContainer">
+          <Features />
+          <FeatureCallout />
+          <LearnHow />
+          <TryOut />
+          <Description />
+          <Showcase language={language} />
         </div>
       </div>
     );

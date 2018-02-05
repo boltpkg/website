@@ -3,8 +3,6 @@ id: workspaces-run
 title: bolt workspaces run
 ---
 
----
-
 Run a script in every package
 
 ## Filter workspaces

@@ -3,8 +3,6 @@ id: bolt
 title: bolt
 ---
 
----
-
 Bolt implements the idea of workspaces on top of [Yarn](https://yarnpkg.com/).
 In fact, the Bolt CLI is largely a drop-in replacement of the Yarn CLI. You can
 use it on any project already using Yarn.

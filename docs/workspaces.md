@@ -3,8 +3,6 @@ id: workspaces
 title: Workspaces
 ---
 
----
-
 A _workspace_ is like any other node package: It's just a directory with its
 own `package.json`.
 
