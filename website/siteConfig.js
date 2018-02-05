@@ -1,4 +1,11 @@
-'use strict';
+/**
+ * Copyright (c) 2017-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/* List of projects/orgs using your project for the users page */
 const users = [
   {
     caption: 'User1',
@@ -9,15 +16,14 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Bolt' /* title for your website */,
-  tagline: '⚡️ Super-powered JavaScript project management',
-  url: 'http://boltpkg.com/' /* your website url */,
-  baseUrl: '/' /* base url for your project */,
-  projectName: 'bolt',
-  cname: "boltpkg.com",
+  title: 'Test Site' /* title for your website */,
+  tagline: 'A website for testing',
+  url: 'https://facebook.github.io' /* your website url */,
+  baseUrl: '/test-site/' /* base url for your project */,
+  projectName: 'test-site',
   headerLinks: [
-    {doc: 'doc1', label: 'Documentation'},
-    {doc: 'install', label: 'Commands'},
+    {doc: 'doc1', label: 'Docs'},
+    {doc: 'doc4', label: 'API'},
     {page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'},
   ],
