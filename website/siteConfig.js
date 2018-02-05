@@ -1,6 +1,12 @@
 'use strict';
-
-const users = require('./_data/users.json');
+const users = [
+  {
+    caption: 'User1',
+    image: '/test-site/img/docusaurus.svg',
+    infoLink: '#',
+    pinned: true,
+  },
+];
 
 const siteConfig = {
   title: 'Bolt' /* title for your website */,
@@ -19,7 +25,6 @@ const siteConfig = {
   /* path to images for header/footer */
   headerIcon: 'img/logo.svg',
   footerIcon: 'img/logo.svg',
-  favicon: 'img/favicon/favicon.ico',
   /* colors for website */
   colors: {
     primaryColor: "#333333",
