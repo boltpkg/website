@@ -16,7 +16,7 @@ const siteConfig = {
   projectName: 'bolt',
   cname: "boltpkg.com",
   headerLinks: [
-    {doc: 'introduction', label: 'About'},
+    {doc: 'doc1', label: 'Documentation'},
     {doc: 'install', label: 'Commands'},
     {page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'},
@@ -44,7 +44,7 @@ const siteConfig = {
   },
   scripts: ['https://buttons.github.io/buttons.js'],
   // You may provide arbitrary config keys to be used as needed by your template.
-  repoUrl: 'https://github.com/boltpkg/bolt',
+  repoUrl: 'https://github.com/facebook/test-site',
 };
 
 module.exports = siteConfig;
