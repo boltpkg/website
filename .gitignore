@@ -1,4 +1,6 @@
 node_modules
+yarn.lock
+package-lock.json
 .DS_Store
 lib/core/metadata.js
 lib/core/MetadataBlog.js
