@@ -9,6 +9,10 @@
     "bolt": "bolt",
     "build": "bolt build",
     "check": "bolt check",
+    "config-delete": "bolt config delete",
+    "config-get": "bolt config get",
+    "config-list": "bolt config list",
+    "config-set": "bolt config set",
     "doc": "bolt doc",
     "format": "bolt format",
     "init": "bolt init",
@@ -33,7 +37,8 @@
     "About": "About",
     "Commands": "Commands",
     "Blog": "Blog",
-    "workspace": "workspace"
+    "workspace": "workspace",
+    "config": "config"
   },
   "pages-strings": {
     "Help Translate|recruit community translators for your project": "Help Translate",
