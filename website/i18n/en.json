@@ -9,7 +9,7 @@
     "bolt": "bolt",
     "build": "bolt build",
     "check": "bolt check",
-    "config": "config",
+    "config": "bolt config",
     "doc": "bolt doc",
     "format": "bolt format",
     "init": "bolt init",
