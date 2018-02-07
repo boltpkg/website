@@ -35,7 +35,7 @@
       "workspace-exec",
       "workspace-upgrade"
     ],
-    "config": [
+    "configuration": [
       "config"
     ]
   }
