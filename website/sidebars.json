@@ -36,10 +36,7 @@
       "workspace-upgrade"
     ],
     "config": [
-      "config-delete",
-      "config-get",
-      "config-list",
-      "config-set"
+      "config"
     ]
   }
 }
