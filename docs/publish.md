@@ -5,12 +5,12 @@ title: bolt publish
 
 ---
 
-Publish new version(s) of your package(s) to npm
+Publish new version of your package(s) on npm
 
-### `publish-lock`
+*Once a package is published, you can never modify that specific version, so take care before publishing.*
 
-Lock your package(s) on the npm registry
+## Commands
 
-### `publish-unlock`
+### **`bolt publish`**
 
-Unlock your package(s) on the npm registry
+This will visit every workspace in the repository and try to publish workspace which has version greater than already published version.
