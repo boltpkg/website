@@ -29,7 +29,7 @@ If there are any queries please ask them in [website](https://boltpkg.slack.com/
 
 - Bolt logo is in *website/static/img/logo.svg*
 
-- Please see *website/_data/users.json* to add/ edit a user of BoltPkg
+- Please see *website/_data/users.json* to add/ edit a user of BoltPkg.
 
 ## Looking for Support?
 
