@@ -16,7 +16,7 @@ const siteConfig = {
   ],
   disableHeaderTitle: true,
   users,
-  editUrl: 'https://github.com/boltpkg/website/tree/master/docs/',
+  editUrl: 'https://github.com/boltpkg/website/tree/docusaurus/docs/',
   /* path to images for header/footer */
   headerIcon: 'img/logo.svg',
   footerIcon: 'img/logo.svg',
