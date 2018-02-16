@@ -1,6 +1,10 @@
-# [boltpkg/website](http://boltpkg.com/)
+# [boltpkg/website](http://new.boltpkg.com/)
 
 > 🏗 The website is under construction
+
+Old website: [http://boltpkg.com/](http://boltpkg.com/)
+
+New website: [http://new.boltpkg.com/](http://new.boltpkg.com/)
 
 ## Introduction
 
@@ -13,6 +17,7 @@ We are using [Docusaurus](https://github.com/facebook/Docusaurus) to build it.
 ```sh
 $ git clone git@github.com:boltpkg/website.git
 $ cd website
+$ git checkout docusaurus
 $ yarn
 $ yarn start
 ```
