@@ -1,0 +1,10 @@
+.logos {
+  margin-bottom: 25px;
+}
+.showcaseSection .logos .logo-users {
+  border: 1px solid #00000040;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 1px #c3c3c3;
+  height: 100px;
+  width: 300px;
+}

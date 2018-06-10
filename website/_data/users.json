@@ -1,8 +1,8 @@
 [
   {
-    "caption": "Bolt",
-    "infoLink": "#",
-    "image": "img/logo.svg",
+    "name": "Atlassian",
+    "url": "https://www.atlassian.com/",
+    "logo": "atlassian.svg",
     "pinned": "true"
   }
 ]

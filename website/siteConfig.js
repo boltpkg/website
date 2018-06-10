@@ -1,6 +1,11 @@
 'use strict';
 
-const users = require('./_data/users.json');
+const users = require('./_data/users.json').map(user => ({
+  pinned: user.pinned,
+  caption: user.name,
+  infoLink: user.url,
+  image: `/img/users/${user.logo}`,
+}));
 
 const siteConfig = {
   title: 'Bolt' /* title for your website */,

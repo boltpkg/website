@@ -170,15 +170,14 @@ const Showcase = props => {
     .map((user, i) => {
       return (
         <a href={user.infoLink} key={i}>
-          <img src={user.image} title={user.caption} />
+          <img className="logo-user" src={user.image} title={user.caption} />
         </a>
       );
     });
 
   return (
     <div className="productShowcaseSection paddingBottom">
-      <h2>{"Who's Using This?"}</h2>
-      <p>This project is used by all these people</p>
+      <h2>{"Who's Using Bolt?"}</h2>
       <div className="logos">{showcase}</div>
       <div className="more-users">
         <a className="button" href={pageUrl('users.html', props.language)}>
@@ -196,13 +195,13 @@ class Index extends React.Component {
     return (
       <div>
         <HomeSplash language={language} />
-          <div className="mainContainer">
-            <Features />
-            <FeatureCallout />
-            <LearnHow />
-            <TryOut />
-            <Description />
-            <Showcase language={language} />
+        <div className="mainContainer">
+          {/* <Features />
+          <FeatureCallout />
+          <LearnHow />
+          <TryOut />
+          <Description /> */}
+          <Showcase language={language} />
         </div>
       </div>
     );
