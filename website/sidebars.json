@@ -20,22 +20,16 @@
       "publish",
       "run",
       "upgrade",
-      "version"
-    ],
-    "workspaces": [
+      "version",
       "workspaces-add",
       "workspaces-run",
       "workspaces-exec",
       "workspaces-upgrade",
-      "workspaces-remove"
-    ],
-    "workspace": [
+      "workspaces-remove",
       "workspace-add",
       "workspace-run",
       "workspace-exec",
-      "workspace-upgrade"
-    ],
-    "configuration": [
+      "workspace-upgrade",
       "config"
     ]
   }

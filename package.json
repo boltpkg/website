@@ -8,4 +8,3 @@
     "build": "cd website && yarn build"
   }
 }
-  

@@ -30,12 +30,10 @@
     "workspaces-remove": "bolt workspaces remove",
     "workspaces-run": "bolt workspaces run",
     "workspaces-upgrade": "bolt workspaces upgrade",
-    "workspaces": "workspaces",
+    "workspaces": "Workspaces",
     "About": "About",
     "Commands": "Commands",
-    "Blog": "Blog",
-    "workspace": "workspace",
-    "configuration": "configuration"
+    "Blog": "Blog"
   },
   "pages-strings": {
     "Help Translate|recruit community translators for your project": "Help Translate",
