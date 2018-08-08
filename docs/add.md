@@ -7,7 +7,9 @@ title: bolt add
 
 ## Add dependencies
 
-Uses [yarn add](https://yarnpkg.com/en/docs/cli/add) to add dependencies. Then runs a custom logic to create a dependency graph. This command will re-establish symlinks between dependency of project and workspaces. This will generate a new ***lock*** file and update the ***package.json*** of the project.
+Bolt uses [yarn add](https://yarnpkg.com/en/docs/cli/add) under the hood to add dependencies. Then it runs a custom logic to create a dependency graph. This command will re-establish symlinks between dependency of project and workspaces. 
+
+> This will generate a new ***lock*** file and update the ***package.json*** of the project.
 
 ## Commands
 
