@@ -15,9 +15,8 @@ const siteConfig = {
   projectName: "bolt",
   cname: "boltpkg.com",
   headerLinks: [
-    { doc: "introduction", label: "About" },
-    { doc: "add", label: "Commands" },
-    { blog: true, label: "Blog" }
+    { doc: "getting-started", label: "Getting Started" },
+    { doc: "introduction", label: "Docs" }
   ],
   disableHeaderTitle: true,
   users,

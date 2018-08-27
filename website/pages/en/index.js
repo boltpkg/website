@@ -96,10 +96,11 @@ const Features = props => (
   <Block background="dark" className="bolt-gradient">
     {[
       {
-        content: "This is the content of my feature",
-        image: imgUrl("logo.svg"),
+        content:
+          "Bolt uses yarn cache to install dependency which makes it fast. Moreover, it installs external dependency only once and sym-links it across to all the workspaces making it ultra fast.",
+        image: imgUrl("Rocket.svg"),
         imageAlign: "right",
-        title: "Feature One"
+        title: "Ultra fast"
       }
     ]}
   </Block>
@@ -119,10 +120,11 @@ const LearnHow = props => (
   <Block background="dark" className="dark-background">
     {[
       {
-        content: "Talk about learning how to use this",
-        image: imgUrl("logo.svg"),
-        imageAlign: "right",
-        title: "Learn How"
+        content:
+          "Bolt makes it really easy to manage dependency across workspaces with command like `bolt ws` and `bolt w`",
+        image: imgUrl("Simple_Workflow.svg"),
+        imageAlign: "left",
+        title: "Easy Workflow"
       }
     ]}
   </Block>
@@ -132,10 +134,11 @@ const TryOut = props => (
   <Block id="try" className="bolt-gradient">
     {[
       {
-        content: "Talk about trying this out",
-        image: imgUrl("logo.svg"),
-        imageAlign: "left",
-        title: "Try it Out"
+        content:
+          "Bolt sym-links the source of workspaces for code sharing thus making sure you are working on latest version of package.",
+        image: imgUrl("Connections.svg"),
+        imageAlign: "right",
+        title: "Very reliable"
       }
     ]}
   </Block>
@@ -191,11 +194,11 @@ class Index extends React.Component {
       <div>
         <HomeSplash language={language} />
         <div className="mainContainer">
-          {/* <Features />
-          <FeatureCallout />
+          <Features />
+          {/* <FeatureCallout /> */}
           <LearnHow />
           <TryOut />
-          <Description /> */}
+          {/* <Description /> */}
           <Showcase language={language} />
         </div>
       </div>

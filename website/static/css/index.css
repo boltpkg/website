@@ -1,3 +1,15 @@
+.homeContainer + .mainContainer {
+  padding: 0;
+}
+
+.mainContainer .gridBlock .blockContent > div{
+  font-size: 1.5em;
+}
+
+.mainContainer .gridBlock h2{
+  font-size: 5em;
+}
+
 .homeContainer{
   text-align: center;
   background: #e6e7e8;

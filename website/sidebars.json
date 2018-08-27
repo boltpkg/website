@@ -1,12 +1,17 @@
 {
+  "getting-started": {
+    "Getting Started": [
+      "getting-started",
+      "installation",
+      "usage"
+    ]
+  },
   "docs": {
     "About": [
       "introduction",
       "workspaces",
       "bolt"
-    ]
-  },
-  "commands": {
+    ],
     "Commands": [
       "add",
       "bin",
