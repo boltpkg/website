@@ -7,7 +7,7 @@ title: Usage
 
 ## Prerequisite
 
-- Please make sure you have bolt installed
+- Make sure you have bolt installed
 
 - Basic understanding on terminal
 
@@ -23,7 +23,7 @@ $ mkdir bolt-project
 $ cd bolt-project
 ```
 
-Initially a npm module:
+Initialize the project (this will create a simple node project):
 
 ```sh
 $ bolt init

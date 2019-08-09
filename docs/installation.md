@@ -5,15 +5,10 @@ title: Installation
 
 ---
 
-It is preffered to install bolt globally so that you can execute all the bolt commands from terminal.
+It is preffered to install bolt globally,
 
+First be sure that you have Node/npm and Yarn. Then run the following command:
 
-First be sure that you have Node/npm and Yarn installed. Then run the following command:
-
-`yarn global add bolt`
-
-
-
-
-
-
+```sh
+yarn global add bolt
+```
